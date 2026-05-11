@@ -1,0 +1,27 @@
+url: https://fin-stats.github.io/brgast/
+template:
+  bootstrap: 5
+home:
+  title: brgast
+  description: Break-regime GAS models for tail-risk forecasting
+navbar:
+  structure:
+    left: [reference, articles, news]
+    right: [github]
+reference:
+  - title: Model fitting
+    contents:
+      - fit_brgast
+      - filter_brgast
+      - forecast_var_es
+      - roll_brgast
+  - title: Data and simulation
+    contents:
+      - sample_data
+      - simulate_brgast
+  - title: Evaluation and plots
+    contents:
+      - backtest_var_es
+      - mean_fz_loss
+      - plot.brgas_fit
+      - plot_var_es_forecasts
